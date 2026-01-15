@@ -47,6 +47,20 @@ export default function Home() {
             <li><a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-black/80 transition">ChatGPT</a></li>
           </ul>
         </section>
+ {/* --- COMPROBACIÓN TEXTO GENERADO IA --- */}
+    
+{/* --- DETECCIÓN DE TEXTO GENERADO POR IA --- */}
+<section>
+  <h2 className="text-3xl font-semibold mb-6 border-b border-white/20 pb-2">
+    Comprobación de texto generado por IA
+  </h2>
+  <ul className="grid md:grid-cols-2 gap-4 text-lg">
+    <li><a href="https://gptzero.me/" target="_blank" rel="noopener noreferrer" className="underline hover:text-black/80 transition">GPTZero</a></li>
+    <li><a href="https://www.scribbr.com/ai-detector/" target="_blank" rel="noopener noreferrer"className="underline hover:text-black/80 transition">Scribbr AI Detector</a></li>
+    <li><a href="https://copyleaks.com/ai-content-detector" target="_blank" rel="noopener noreferrer" className="underline hover:text-black/80 transition">Copyleaks AI Detector</a></li>
+    <li><a href="https://quillbot.com/ai-content-detector" target="_blank" rel="noopener noreferrer" className="underline hover:text-black/80 transition">QuillBot AI Detector</a></li>
+  </ul>
+</section>
 
         {/* --- PAGINAS WEB --- */}
         <section>
